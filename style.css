@@ -1,0 +1,48 @@
+.flex_container{
+    background-color: dodgerblue;
+    /* background-image: url('header-bg.jpg'); */
+    display: flex;
+    height: 400px;
+
+    /* flex-direction: row; row is default value */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; nowrap is default value */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap; The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+    
+    /* The justify-content property is used to align the flex items: */
+    /* justify-content: center; The justify-content property is used to align the flex items */
+    /* justify-content: flex-start; The flex-start value aligns the flex items at the beginning of the container (this is default) */
+    /* justify-content: flex-end; The flex-end value aligns the flex items at the end of the container */
+    /* justify-content: space-around; The space-around value displays the flex items with space before, between, and after the lines */
+    /* justify-content: space-between; The space-between value displays the flex items with space between the lines */
+    
+    /* The align-items property is used to align the flex items. */
+    /* align-items: center; The center value aligns the flex items in the middle of the container */
+    /* align-items: flex-start; The flex-start value aligns the flex items at the top of the container */
+    /* align-items: flex-end; The flex-end value aligns the flex items at the bottom of the container */
+    /* align-items: stretch; The stretch value stretches the flex items to fill the container (this is default) */
+    /* align-items: baseline; The baseline value aligns the flex items such as their baselines aligns */
+    
+    /* The align-content property is used to align the flex lines. */
+    /* align-content: space-between; The space-between value displays the flex lines with equal space between them */
+    /* align-content: space-around; The space-around value displays the flex lines with space before, between, and after them */
+    /* align-content: stretch; The stretch value stretches the flex lines to take up the remaining space (this is default) */
+    /* align-content: center; The center value displays display the flex lines in the middle of the container */
+    /* align-content: flex-start; The flex-start value displays the flex lines at the start of the container */
+    /* align-content: flex-end; The flex-end value displays the flex lines at the end of the container */
+
+}
+
+.flex_item{
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+    width: 50%;
+}
